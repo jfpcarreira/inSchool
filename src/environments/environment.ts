@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: '<your-key>',
-    authDomain: '<your-project-authdomain>',
-    databaseURL: '<your-database-URL>',
-    projectId: '<your-project-id>',
-    storageBucket: '<your-storage-bucket>',
-    messagingSenderId: '<your-messaging-sender-id>'
+    apiKey:             "AIzaSyDq4gMmbs1kChbw9UOiz_7J0ODf9OxEekI",
+    authDomain:         "inschool-94e08.firebaseapp.com",
+    databaseURL:        "https://inschool-94e08.firebaseio.com",
+    projectId:          "inschool-94e08",
+    storageBucket:      "",
+    messagingSenderId:  "1012242929333"
   }
 };

@@ -1,0 +1,10 @@
+<ul *ngFor="let post of posts | async">
+  <li>
+      Nome: {{post.nome}}<br/>
+      Idade: {{post.idade}}<br/>
+      Data nascimento: {{post.dataNascimento | date: 'dd/MM/yyyy'}}<br/>
+      Desempregado: {{post.isDesempregado}}<br/>
+      Visual: {{post.visual.cabelo}}<br/>
+      <h2 *ngFor="let item of post.lista">{{item}}</h2>
+  </li>
+</ul>
