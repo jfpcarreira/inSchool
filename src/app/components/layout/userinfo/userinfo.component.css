@@ -1,0 +1,65 @@
+.user-info {
+  padding: 13px 15px 12px 15px;
+  white-space: nowrap;
+  position: relative;
+  border-bottom: 1px solid #e9e9e9;
+  background: url(/assets/images/user_bg_2.jpg) no-repeat no-repeat;
+  height: 170px;
+}
+
+.user-info .image {
+  margin-right: 12px;
+  display: inline-block;
+}
+
+.user-info .image img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #2196F3;
+  vertical-align: bottom !important;
+}
+
+.user-info .info-container {
+  cursor: default;
+  display: block;
+  position: relative;
+  top: 15px;
+}
+
+.user-info .info-container .name {
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 14px;
+  max-width: 200px;
+}
+
+.user-info .info-container .email {
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 12px;
+  max-width: 200px;
+}
+
+.user-info .info-container .user-helper-dropdown {
+  position: absolute;
+  right: -3px;
+  bottom: -5px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+  cursor: pointer;
+  color: #fff;
+}

@@ -4,19 +4,26 @@ import { ReactiveFormsModule }    from '@angular/forms';
 import { AngularFireModule }      from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AngularFireAuthModule }  from 'angularfire2/auth';
+import { NgbModule }              from '@ng-bootstrap/ng-bootstrap';
 
 import { environment }            from '../environments/environment';
 
 import { AppComponent }           from './app.component';
-import { TesteComponent }         from './components/teste/teste.component';
+import { HeaderComponent }        from './components/layout/header/header.component';
+import { UserinfoComponent }      from './components/layout/userinfo/userinfo.component';
+
+import { Teste2Component }        from './components/teste2/teste2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TesteComponent
+    Teste2Component,
+    HeaderComponent,
+    UserinfoComponent
   ],
   imports: [
       BrowserModule
+    , NgbModule.forRoot()
     , AngularFireModule.initializeApp(environment.firebase, 'inSchool')
     , AngularFirestoreModule
     , AngularFireAuthModule

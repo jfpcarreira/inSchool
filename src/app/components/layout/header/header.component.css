@@ -1,0 +1,12 @@
+header nav {
+  background-color: #2196F3;
+  height: 70px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav .nav-item a {
+  color: #FFFFFF;
+  padding: 7px 7px 2px 7px;
+  margin-top: 17px;
+  margin-left: 5px;
+}
