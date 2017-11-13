@@ -1,4 +1,9 @@
+header {
+  position: relative;
+}
+
 header nav {
+  position: relative;
   background-color: #2196F3;
   height: 70px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);

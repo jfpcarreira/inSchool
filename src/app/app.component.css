@@ -1,0 +1,40 @@
+.sidebar {
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family: "Roboto", sans-serif;
+  background: #fdfdfd;
+  width: 300px;
+  overflow: hidden;
+  display: inline-block;
+  height: calc(100vh - 70px);
+  position: fixed;
+  top: 70px;
+  left: 0;
+  -webkit-box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.1);
+  z-index: 11 !important;
+  color: #1565C0;
+}
+
+.page-wrapper {
+  background: #E3F2FD;
+  padding-bottom: 60px;
+  min-height: 360px;
+}
+
+@media (min-width: 1024px) {
+  .page-wrapper {
+    margin-left: 300px;
+  }
+}
+
+.container-fluid {
+  padding: 0 30px 25px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -9,17 +9,25 @@ import { NgbModule }              from '@ng-bootstrap/ng-bootstrap';
 import { environment }            from '../environments/environment';
 
 import { AppComponent }           from './app.component';
-import { HeaderComponent }        from './components/layout/header/header.component';
-import { UserinfoComponent }      from './components/layout/userinfo/userinfo.component';
 
-import { Teste2Component }        from './components/teste2/teste2.component';
+import { HeaderComponent }        from './components/layout/header/header.component';
+import { SubheaderComponent }     from './components/layout/subheader/subheader.component';
+import { FooterComponent }        from './components/layout/footer/footer.component';
+import { UserinfoComponent }      from './components/layout/leftmenu/userinfo/userinfo.component';
+import { MenuComponent }          from './components/layout/leftmenu/menu/menu.component';
+import { LmFooterComponent }      from './components/layout/leftmenu/footer/footer.component';
+import { DashboardComponent }     from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Teste2Component,
-    HeaderComponent,
-    UserinfoComponent
+      AppComponent
+    , HeaderComponent
+    , UserinfoComponent
+    , MenuComponent
+    , LmFooterComponent
+    , FooterComponent
+    , SubheaderComponent
+    , DashboardComponent
   ],
   imports: [
       BrowserModule
